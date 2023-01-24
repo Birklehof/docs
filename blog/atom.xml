@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://birklehof.github.io/docs/blog</id>
+    <title>Birklehof Docs Blog</title>
+    <updated>2023-01-24T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://birklehof.github.io/docs/blog"/>
+    <subtitle>Birklehof Docs Blog</subtitle>
+    <icon>https://birklehof.github.io/docs/img/favicon.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Welcome]]></title>
+        <id>welcome</id>
+        <link href="https://birklehof.github.io/docs/blog/welcome"/>
+        <updated>2023-01-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hope this blog post works!]]></summary>
+        <content type="html"><![CDATA[<p>Hope this blog post works!</p>]]></content>
+        <author>
+            <name>Paul Maier</name>
+            <uri>https://github.com/C0mput3r5c13nt15t</uri>
+        </author>
+    </entry>
+</feed>
