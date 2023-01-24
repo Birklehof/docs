@@ -13,10 +13,11 @@ const config = {
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.png",
+  trailingSlash: false,
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "Schule Birklehof e. V.", // Usually your GitHub org/user name.
+  organizationName: "Birklehof", // Usually your GitHub org/user name.
   projectName: "docs", // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
