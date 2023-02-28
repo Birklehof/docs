@@ -40,7 +40,7 @@
 }
 
 .highlight {
-  color: #b0a700;
+  color: var(--ifm-color-primary);
 }
 
 @media screen and (max-width: 996px) {
