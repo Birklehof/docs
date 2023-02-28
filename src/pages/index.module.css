@@ -4,10 +4,43 @@
  */
 
 .heroBanner {
+  height: 60vh;
   padding: 4rem 0;
   text-align: center;
   position: relative;
   overflow: hidden;
+  background: url("/static/img/landing.jpg") no-repeat center top;
+  background-size: cover;
+  color: white;
+}
+
+.paragraphContainer {
+  width: 100%;
+  min-height: 40vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.paragraph {
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 1.5;
+  max-width: 800px;
+  text-align: left;
+}
+
+.paragraph h1 {
+  text-align: center;
+}
+
+.highlight {
+  color: #b0a700;
 }
 
 @media screen and (max-width: 996px) {

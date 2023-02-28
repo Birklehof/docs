@@ -7,7 +7,6 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Birklehof Docs",
-  tagline: "Menschlich | Mündig | Mutig",
   url: "https://birklehof.github.io/",
   baseUrl: "/docs",
   onBrokenLinks: "throw",
@@ -61,7 +60,7 @@ const config = {
         title: "Birklehof Docs",
         logo: {
           alt: "Birklehof",
-          src: "img/logo.svg",
+          src: "img/birklehof-logo.webp",
         },
         items: [
           {
@@ -98,7 +97,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Paul Maier.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Schule Birklehof e.V.`,
       },
       prism: {
         theme: lightCodeTheme,
