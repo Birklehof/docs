@@ -24,11 +24,11 @@ export default function Home(): JSX.Element {
   return (
     <Layout
       title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />"
+      description="This is the documentation platform for software projects developed by the students of the Birklehof for the students of the Birklehof."
     >
       <HomepageHeader />
       <main>
-        <div className={styles.paragraphContainer}>
+        <div className={styles.paragraphsContainer}>
           <div className={styles.paragraph}>
             <h1>What is Birklehof Docs?</h1>
             <p>

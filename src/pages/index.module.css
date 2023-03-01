@@ -4,7 +4,7 @@
  */
 
 .heroBanner {
-  height: 60vh;
+  min-height: 60vh;
   padding: 4rem 0;
   text-align: center;
   position: relative;
@@ -14,7 +14,7 @@
   color: white;
 }
 
-.paragraphContainer {
+.paragraphsContainer {
   width: 100%;
   min-height: 40vh;
   margin: auto;
@@ -32,6 +32,8 @@
   font-weight: 300;
   line-height: 1.5;
   max-width: 800px;
+  padding-left: 10px;
+  padding-right: 10px;
   text-align: left;
 }
 
@@ -39,7 +41,7 @@
   text-align: center;
 }
 
-.highlight {
+.paragraph .highlight {
   color: var(--ifm-color-primary);
 }
 
@@ -47,10 +49,4 @@
   .heroBanner {
     padding: 2rem;
   }
-}
-
-.buttons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
