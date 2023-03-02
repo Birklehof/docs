@@ -36,8 +36,8 @@ export default function Home(): JSX.Element {
               <span className={styles.highlight}>documentation platform</span>{" "}
               for software projects developed by the students of the Birklehof
               for the students of the Birklehof. It is used for maintaining the
-              existing software and helping you develop you idea for making life
-              easier. Now get to it and make something{" "}
+              existing software and helping you develop your ideas for making
+              life easier. Now get to it and make something{" "}
               <span className={styles.highlight}>awesome!</span>
             </p>
           </div>

@@ -33,7 +33,7 @@ For detailed information on how to use Remote Config, see the [official document
 },
 ```
 
-- `teacherAbreviations` (`JSON`) is a JSON array that contains the teacher abbreviations as strings (e.g. `"Abl"`). It used in [Teams Name Generator](http://192.168.56.5:3000/docs/docs/category/teams-name-generator) for the teacher abbreviation input.
+- `teacherAbbreviations` (`JSON`) is a JSON array that contains the teacher abbreviations as strings (e.g. `"Abl"`). It used in [Teams Name Generator](http://192.168.56.5:3000/docs/docs/category/teams-name-generator) for the teacher abbreviation input.
 
 ## Best Practices
 
