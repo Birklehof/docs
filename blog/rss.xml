@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>Birklehof Docs Blog</title>
-        <link>https://birklehof.github.io/docs/blog</link>
+        <link>https://birklehof.github.io/blog</link>
         <description>Birklehof Docs Blog</description>
         <lastBuildDate>Tue, 24 Jan 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
@@ -10,8 +10,8 @@
         <language>en</language>
         <item>
             <title><![CDATA[Welcome]]></title>
-            <link>https://birklehof.github.io/docs/blog/welcome</link>
-            <guid>https://birklehof.github.io/docs/blog/welcome</guid>
+            <link>https://birklehof.github.io/blog/welcome</link>
+            <guid>https://birklehof.github.io/blog/welcome</guid>
             <pubDate>Tue, 24 Jan 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[Hope this blog post works!]]></description>
             <content:encoded><![CDATA[<p>Hope this blog post works!</p>]]></content:encoded>
