@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://birklehof.github.io/blog</id>
+    <id>https://docs.birklehof.space/blog</id>
     <title>Birklehof Docs Blog</title>
     <updated>2023-01-24T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://birklehof.github.io/blog"/>
+    <link rel="alternate" href="https://docs.birklehof.space/blog"/>
     <subtitle>Birklehof Docs Blog</subtitle>
-    <icon>https://birklehof.github.io/img/favicon.png</icon>
+    <icon>https://docs.birklehof.space/img/favicon.png</icon>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
-        <id>https://birklehof.github.io/blog/welcome</id>
-        <link href="https://birklehof.github.io/blog/welcome"/>
+        <id>https://docs.birklehof.space/blog/welcome</id>
+        <link href="https://docs.birklehof.space/blog/welcome"/>
         <updated>2023-01-24T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Hope this blog post works!]]></summary>
         <content type="html"><![CDATA[<p>Hope this blog post works!</p>]]></content>
