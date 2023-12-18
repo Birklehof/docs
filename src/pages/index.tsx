@@ -24,18 +24,18 @@ function HomepageHeader() {
 export default function Home(): JSX.Element {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <Layout description="Auf dieser Seite liegt die technische Dokumentation für die Schülereigenen Softwareprojekte der Schule Birklehof.">
+    <Layout>
       <HomepageHeader />
       <main>
         <div className={styles.paragraphsContainer}>
           <div className={styles.paragraph}>
-            <h1>Was ist Birklehof Docs?</h1>
+            <h1>Was sind die Birklehof Docs?</h1>
             <p>
               Birklehof Docs ist eine{" "}
               <span className={styles.highlight}>Dokumentationsplattform</span>{" "}
-              für Softwareprojekte, die von den Studenten des Birklehofs
+              für Softwareprojekte, die von den Schüler:innen des Birklehofs
               entwickelt wurden. Sie dient der Pflege der bestehenden Software
-              und hilft bei der Entwicklung neuer Projekte. Falls du Hilfe
+              und hilft bei der Entwicklung neuer Projekte. Falls du Schüler bist und Hilfe
               brauchst, schreib mir gerne eine E-Mail an{" "}
               <a
                 className={styles.highlight}
