@@ -80,7 +80,7 @@ const config = {
       footer: {
         links: [
           {
-            title: "More",
+            title: "Mehr",
             items: [
               {
                 label: "Blog",

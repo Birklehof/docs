@@ -1,6 +1,6 @@
 ---
-slug: welcome
-title: Welcome
+slug: first-post
+title: Erster Blogpost
 authors: [paul]
 ---
 
