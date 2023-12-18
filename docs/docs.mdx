@@ -12,12 +12,18 @@ sidebar_position: 5
 | Funktionalität      | Dokumentation der Schülereigenen Softwareprojekte                      |
 | Stack               | Docusaurus                                                             |
 | Deployment          | GitHub Pages                                                           |
-| URL                 | [https://docs.birklehof.space/](https://docs.birklehof.space/)                   |
+| URL                 | [https://docs.birklehof.space/](https://docs.birklehof.space/)         |
 | Code                | [https://github.com/Birklehof/docs](https://github.com/Birklehof/docs) |
 
 ## Wichtige Befehle
 
-TODO
+- `yarn start` - Startet den Entwicklungsserver
+- `yarn build` - Erstellt die statischen Dateien für die Website
+- `yarn serve` - Startet einen lokalen Server, um die statische Seite zu testen
+- `yarn deploy` - Veröffentlicht die Website auf GitHub Pages
+
+Nutze `--host 0.0.0.0` um den Entwicklungsserver bzw den lokalen Server für andere Geräte im Netzwerk verfügbar zu machen (z.B. wenn du auf einer
+virtuellen Maschine entwickelst).
 
 ## Beitragen
 
@@ -35,4 +41,5 @@ git clone https://github.com/Birklehof/docs.git
 
 ## Deployment
 
-TODO
+Um Änderungen an der Dokumentation zu veröffentlichen, kannst du einfach den Befehl `yarn deploy` ausführen. Beachte, dass du hierfür am besten über
+[SSH mit GitHub verbunden](https://docs.github.com/en/authentication/connecting-to-github-with-ssh) sein solltest.
