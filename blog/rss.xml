@@ -7,14 +7,14 @@
         <lastBuildDate>Tue, 24 Jan 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
-        <language>en</language>
+        <language>de</language>
         <item>
             <title><![CDATA[Welcome]]></title>
             <link>https://docs.birklehof.space/blog/welcome</link>
             <guid>https://docs.birklehof.space/blog/welcome</guid>
             <pubDate>Tue, 24 Jan 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Hope this blog post works!]]></description>
-            <content:encoded><![CDATA[<p>Hope this blog post works!</p>]]></content:encoded>
+            <description><![CDATA[Der allererste Blogpost. Yeah!]]></description>
+            <content:encoded><![CDATA[<p>Der allererste Blogpost. Yeah!</p>]]></content:encoded>
         </item>
     </channel>
 </rss>
