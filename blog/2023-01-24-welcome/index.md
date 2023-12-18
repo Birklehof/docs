@@ -4,4 +4,4 @@ title: Welcome
 authors: [paul]
 ---
 
-Hope this blog post works!
+Der allererste Blogpost. Yeah!

@@ -3,8 +3,6 @@ import clsx from "clsx";
 import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
-import HomepageFeatures from "@site/src/components/HomepageFeatures";
-
 import styles from "./index.module.css";
 
 function HomepageHeader() {
@@ -12,7 +10,11 @@ function HomepageHeader() {
   return (
     <header className={clsx("hero hero--primary", styles.heroBanner)}>
       <div className="container">
-        <h1 className="hero__title">{siteConfig.title}</h1>
+        <h1 className="hero__title">
+          Willkommen zu den
+          <br />
+          {siteConfig.title}
+        </h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
       </div>
     </header>
@@ -22,53 +24,44 @@ function HomepageHeader() {
 export default function Home(): JSX.Element {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="This is the documentation platform for software projects developed by the students of the Birklehof for the students of the Birklehof."
-    >
+    <Layout description="Auf dieser Seite liegt die technische Dokumentation für die Schülereigenen Softwareprojekte der Schule Birklehof.">
       <HomepageHeader />
       <main>
         <div className={styles.paragraphsContainer}>
           <div className={styles.paragraph}>
-            <h1>What is Birklehof Docs?</h1>
+            <h1>Was ist Birklehof Docs?</h1>
             <p>
-              Birklehof Docs is a{" "}
-              <span className={styles.highlight}>documentation platform</span>{" "}
-              for software projects developed by the students of the Birklehof
-              for the students of the Birklehof. It is used for maintaining the
-              existing software and helping you develop your ideas for making
-              life easier. Now get to it and make something{" "}
-              <span className={styles.highlight}>awesome!</span>
+              Birklehof Docs ist eine{" "}
+              <span className={styles.highlight}>Dokumentationsplattform</span>{" "}
+              für Softwareprojekte, die von den Studenten des Birklehofs
+              entwickelt wurden. Sie dient der Pflege der bestehenden Software
+              und hilft bei der Entwicklung neuer Projekte. Falls du Hilfe
+              brauchst, schreib mir gerne eine E-Mail an{" "}
+              <a
+                className={styles.highlight}
+                href="mailto:birklehof-docs@paulmaier.online"
+              >
+                birklehof-docs@paulmaier.online
+              </a>
             </p>
           </div>
           <div className={styles.paragraph}>
-            <h1>How can I contribute?</h1>
+            <h1>Bisherige Projekte</h1>
             <p>
-              Use Birklehof Docs to familiarize yourself with existing software
-              and possible endpoints for your new feature or project.{" "}
-              <span className={styles.highlight}>Develop a prototype</span> and
-              show it to someone in the Programmieren AG or school management.
-              Once your software is useful and stable, write the documentation.{" "}
-              <span className={styles.highlight}>
-                Ask us for help if needed.
-              </span>{" "}
-              Contribute to the Birklehof software ecosystem and{" "}
-              <span className={styles.highlight}>
-                make life easier for everyone!
-              </span>
+              Bisher wurden folgende Projekte entwickelt und auf dieser Seite
+              dokumentiert:
             </p>
-          </div>
-          <div className={styles.paragraph}>
-            <h1>What else is there left to say?</h1>
-            <p>
-              <span className={styles.highlight}>Thank you</span> for your time
-              and effort in making the Birklehof a better place for everyone. We
-              hope the Birklehof Docs will{" "}
-              <span className={styles.highlight}>help you</span> in your journey
-              and provide you with the information you need. If you have any
-              questions or suggestions, please contact me at{" "}
-              <span className={styles.highlight}>pauljustus279@gmail.com.</span>
-            </p>
+            <ul>
+              <li>
+                <Link to="/docs/stunden-lauf-app-v2">24-Stunden-Lauf-App</Link>{" "}
+                (V2)
+              </li>
+              <li>
+                <Link to="/docs/teams-name-generator">
+                  Teams-Namens-Generator
+                </Link>
+              </li>
+            </ul>
           </div>
         </div>
       </main>

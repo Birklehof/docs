@@ -1,41 +1,10 @@
-# Website
+# Birklehof Docs
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+Hier liegt die technische Dokumentation für die Schülereigenen Softwareprojekte der Schule Birklehof. Sie wurde mit [Docusaurus 2](https://docusaurus.io/) erstellt und ist unter [https://docs.birklehof.space/](https://docs.birklehof.space/) erreichbar.
 
-### Installation
+## Wichtige Befehle
 
-```
-$ yarn
-```
-
-### Local Development
-
-```
-$ yarn start
-```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+- `yarn start` - Startet den Entwicklungsserver
+- `yarn start --host 0.0.0.0` - Startet den Entwicklungsserver auf dem Host 0.0.0.0 (wichtig für Entwicklung innerhalb virtueller Maschinen)
+- `yarn build` - Erstellt die statischen Dateien für die Website
+- `yarn deploy` - Veröffentlicht die Website auf GitHub Pages

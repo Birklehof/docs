@@ -2,6 +2,6 @@
 sidebar_position: 1
 ---
 
-# Welcome to the docs!
+# Willkommen
 
-> If a program is useful, it will have to be changed. ... If a program is useless, it will have to be documented. -- unknown
+Auf dieser Seite findest du die technische Dokumentation für die Schülereigenen Softwareprojekte der Schule Birklehof. Sie wurde mit [Docusaurus 2](https://docusaurus.io/) erstellt und dient als zentrale Anlaufstelle für alle technischen Fragen.
