@@ -39,9 +39,9 @@ export default function Home(): JSX.Element {
               brauchst, schreib mir gerne eine E-Mail an{" "}
               <a
                 className={styles.highlight}
-                href="mailto:birklehof-docs@paulmaier.online"
+                href="mailto:birklehof@paulmaier.online"
               >
-                birklehof-docs@paulmaier.online
+                birklehof@paulmaier.online
               </a>
             </p>
           </div>
