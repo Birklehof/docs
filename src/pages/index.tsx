@@ -61,6 +61,11 @@ export default function Home(): JSX.Element {
                   Teams-Namens-Generator
                 </Link>
               </li>
+              <li>
+                <Link to="/docs/docs">
+                  Birklehof Docs
+                </Link>
+              </li>
             </ul>
           </div>
         </div>
