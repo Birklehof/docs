@@ -69,7 +69,6 @@ const config = {
             position: "left",
             label: "Dokumentation",
           },
-          { to: "/blog", label: "Blog", position: "left" },
           {
             href: "https://github.com/Birklehof",
             label: "GitHub",
@@ -82,10 +81,6 @@ const config = {
           {
             title: "Mehr",
             items: [
-              {
-                label: "Blog",
-                to: "/blog",
-              },
               {
                 label: "Birklehof",
                 to: "https://birklehof.de/",
